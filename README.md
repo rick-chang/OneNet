@@ -61,7 +61,7 @@ We then run demo script for differet linear inverse problems.  <em> Likewise, yo
 ```bash
 python paper_demo.py
 ```
-In our experience, models trained for 50,000 iterations should give you the result similar to we reported in the paper.  <em> Note that you may need to adjust the value of alpha (the penalty parameter) for each task and different hyper-parameters used to train the model.
+In our experience, models trained for 50,000 iterations should give you the result similar to we reported in the paper.  <em> Note that you may need to adjust the value of alpha (the penalty parameter) for each task and different hyper-parameters used to train the model. </em>
 
 Here are some sampled result reported in the papers.
 
