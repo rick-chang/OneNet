@@ -42,7 +42,7 @@ Once the projection network is trained, we can solve any linear inverse problem 
 ## Prerequest
 The code is tested under Ubuntu 16.04 with CUDA 8.0 on Titan X Pascal and GTX 1080. We use Python 2.7 and Tensorflow 0.12.1. 
 
-We train the model on two datasets, MS-CELEB-1M dataset and ImageNet dataset.  The dataset should be plased under <tt>~/dataset</tt>.  For example, we put MS-CELEB-1M dataset at <tt>~/dataset/celeb-1m</tt>.  We load the datasets via <tt>load_celeb.py</tt> and <tt>load_imagenet.py</tt>, both can be easily adapt to other datasets. In this tutorial, we take MS-CELEB-1M as an example to illustrate how to use our code. For ImageNet, the usage is alomst the same by replacing  ``import load_celeb`` with ``import load_imagenet``.  Please see the comments in these files for more information.
+We train the model on two datasets, MS-CELEB-1M dataset and ImageNet dataset.  The dataset should be plased under <tt>&#126;/dataset</tt>.  For example, we put MS-CELEB-1M dataset at <tt>&#126;/dataset/celeb-1m</tt>.  We load the datasets via <tt>load_celeb.py</tt> and <tt>load_imagenet.py</tt>, both can be easily adapt to other datasets. In this tutorial, we take MS-CELEB-1M as an example to illustrate how to use our code. For ImageNet, the usage is alomst the same by replacing  ``import load_celeb`` with ``import load_imagenet``.  Please see the comments in these files for more information.
 
 ## Train a Projector
 ```bash
